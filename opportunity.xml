@@ -45,9 +45,9 @@
                 search="[('model', '=', 'sale.opportunity.category')]"/>
             <field name="group" ref="sale.group_sale_admin"/>
             <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="False"/>
-            <field name="perm_create" eval="False"/>
-            <field name="perm_delete" eval="False"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
         </record>
 
         <!-- sale.opportunity -->
