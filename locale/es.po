@@ -16,7 +16,7 @@ msgstr "Usuario de creación"
 
 msgctxt "field:sale.opportunity.category,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:sale.opportunity.category,name:"
 msgid "Name"
