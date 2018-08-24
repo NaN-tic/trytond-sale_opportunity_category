@@ -12,9 +12,8 @@ class Category(ModelSQL, ModelView):
     name = fields.Char('Name', required=True)
 
 
-class Opportunity:
+class Opportunity(metaclass=PoolMeta):
     __name__ = 'sale.opportunity'
-    __metaclass__ = PoolMeta
 
     category = fields.Many2One('sale.opportunity.category',
         'Category')
