@@ -32,8 +32,7 @@
         </record>
 
         <record model="ir.model.access" id="access_category">
-            <field name="model"
-                search="[('model', '=', 'sale.opportunity.category')]"/>
+            <field name="model">sale.opportunity.category</field>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
@@ -41,8 +40,7 @@
         </record>
 
         <record model="ir.model.access" id="access_category_group_sale_admin">
-            <field name="model"
-                search="[('model', '=', 'sale.opportunity.category')]"/>
+            <field name="model">sale.opportunity.category</field>
             <field name="group" ref="sale.group_sale_admin"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
